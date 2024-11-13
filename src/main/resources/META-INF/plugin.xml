@@ -1,0 +1,10 @@
+<idea-plugin>
+    <name>typealiasproblem</name>
+    <vendor>Vindicatory</vendor>
+    <depends>com.intellij.modules.ultimate</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <platform.lsp.serverSupportProvider
+            implementation="typealiasproblem.sample.SampleServerSupportProvider" />
+    </extensions>
+</idea-plugin>
